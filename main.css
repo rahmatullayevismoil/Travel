@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/darker-grotesque-v2-latin-regular.woff2') format('woff2'), 
+         url('../fonts/darker-grotesque-v2-latin-regular.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/darker-grotesque-v2-latin-900.woff2') format('woff2'), 
+         url('../fonts/darker-grotesque-v2-latin-900.woff') format('woff'); 
+  }
+
+body{
+    background-color: cadetblue
+}
+
+.heading{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+        color: #fff;
+        margin-top: 300px;
+}
+
+.heading:hover{
+    transform: scale(1.1);
+}
+
+#title{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(21, 196, 187);
+}
