@@ -27,19 +27,16 @@ body{
     font-weight: 900;
     font-size: 50px;
     text-align: center;
-        color: #fff;
+        color: gold;
         margin-top: 300px;
-}
-
-.heading:hover{
-    transform: scale(1.1);
 }
 
 #title{
     font-family: 'Darker Grotesque';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 40px;
     text-align: center;
-    background-color: rgb(21, 196, 187);
+    color: red;
+ 
 }
